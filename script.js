@@ -18,7 +18,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     })
     .then(response => {
         if (response.ok) {
-            alert('Form submitted successfully!');
+            const join=getElementById('join');
+   join.textContent='joined';
             // Optional: Reset the form or update the UI here
             this.reset(); 
         } else {
