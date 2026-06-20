@@ -62,7 +62,7 @@ h2 {
 
 .login-btn {
    align-items: center;    
-  wkdth:30%;
+  width:30%;
 
  margin-left:60px;
     background-color: #007bff;
@@ -79,3 +79,28 @@ h2 {
     background-color: #0056b3;
 }
     
+
+
+
+
+.hero-section {
+  /* Point this to your actual image file or URL */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('safaricom.jpg');
+  
+  /* Forces the image to scale nicely without stretching */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+   height: 20vh; 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: #ffffff; /* White text so it pops against the dark overlay */
+  font-family: sans-serif;
+}
