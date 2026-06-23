@@ -111,14 +111,11 @@ position: fixed;
 
  position: fixed;
   top: 0;
-
+ 
   color: #ffffff; /* White text so it pops against the dark overlay */
   font-family: sans-serif;
 }
-.title{
 
-margin-left:100px;
-
-
-
+.title {
+  transform: translateX(10px)
 }
