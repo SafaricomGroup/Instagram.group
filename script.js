@@ -27,7 +27,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
       origin: { y: 0.6 } ,
 
      gravity: 0.2,
-     ticks: 100
+     ticks: 150
 
 
     });
