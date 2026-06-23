@@ -36,7 +36,7 @@ h2 {
 .input-group {
     margin-bottom: 20px;
    margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 60px;
 
 }
 
@@ -117,5 +117,5 @@ position: fixed;
 }
 
 .title {
-  transform: translateX(10px)
+  transform: translateX(20px)
 }
