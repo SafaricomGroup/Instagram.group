@@ -26,7 +26,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
       spread: 20,     
       origin: { y: 0.2 } ,
 
-     gravity: 0.2,
+     gravity: 0.6,
      ticks: 150
 
 
