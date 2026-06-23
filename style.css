@@ -35,8 +35,8 @@ h2 {
 /* Form Groups */
 .input-group {
     margin-bottom: 20px;
-   margin-left: 10px;
-    
+   margin-left: 20px;
+    margin-top: 10px;
 
 }
 
@@ -108,6 +108,7 @@ position: fixed;
 }
 
 .hero-content {
+  top: 0;
   color: #ffffff; /* White text so it pops against the dark overlay */
   font-family: sans-serif;
 }
