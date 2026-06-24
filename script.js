@@ -23,7 +23,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
       
     confetti({
       particleCount: 150,  // Number of confetti pieces
-      spread: 20,     
+      spread: 60,     
       origin: { y: 0.2 } ,
 
      gravity: 0.6,
