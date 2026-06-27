@@ -20,14 +20,14 @@ body {
 /* The Login Card Box */
 .login-container {
     background: #ffffff;
-    padding: 40px;
+    padding: 0px;
    margin-right:50px;
-  margin-top:100px;
+  margin-top:150px;
 
 }
 /* Form Groups */
 .input-group {
-   
+width:100%;   
     
 }	
 
