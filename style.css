@@ -126,7 +126,11 @@ position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
+
+position: fixed;
+  top: 20px;   /* Distance from the top */
+  right: 20px;   
   /* Dimensions of the icon */
   width: 30px;
   height: 20px;
