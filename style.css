@@ -20,7 +20,7 @@ body {
 /* The Login Card Box */
 .login-container {
     background: #ffffff;
-    padding: 4px;
+    padding: 0px;
     margin:150px 0 0 70px;
   width:70%;
 
@@ -33,14 +33,15 @@ width:100%;
 
 .input-group label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+   margin-top: 4px;
     color: #666;
     font-size: 14px;
 }
 
 .input-group input {
     width: 100%;
-    padding: 8px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 16px;
