@@ -242,8 +242,10 @@ h2 {
 
 
     .footer-logo {
-        height: 50px;       /* Set a fixed height that fits your footer */
-        width: auto;         /* Keeps the image proportions perfect */
+
+     margin-top:100px;
+        height: 100px;       /* Set a fixed height that fits your footer */
+        width: 100%;         /* Keeps the image proportions perfect */
         object-fit: contain; /* Prevents stretching */
         opacity: 0.8;        /* Optional: slightly blends dark themes */
     }
