@@ -61,6 +61,8 @@ display: inline-flex;
       justify-content: center;
  width: auto;
 
+
+margin-top:10px;
  margin-left:60px;
     background-color: #007bff;
     color: white;
@@ -255,7 +257,7 @@ h2 {
   max-width:60%; 
 border-radius: 10px; 
    margin :50px 20px 30px 20px;
- opacity:0;
+ opacity:0.2;
 object-fit: cover;
 
 }
