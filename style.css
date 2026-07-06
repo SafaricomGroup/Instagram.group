@@ -106,7 +106,7 @@ position: fixed;
 }
 
 .hero-content {
-
+display:inline-flex;
  position: fixed;
   top: 0;
  
@@ -115,6 +115,7 @@ position: fixed;
 }
 
 .title {
+  
   transform: translateX(48px)  translateY(68px);
 
 }
@@ -253,9 +254,27 @@ h2 {
     }
 
   .ab {
- height: 300px;
+ height: 400px;
   max-width:90%; 
 border-radius: 10px; 
-   margin :50px 20px 50px 20px;
+   margin :100px 20px 50px 20px;
  opacity:0.8;
+}
+
+
+.stats-count {
+  font-size: 2rem;            /* Makes the number pop */
+  font-weight: 700;           /* Bold emphasis */
+  color: #1a1a1a;             /* Deep dark text */
+  line-height: 1.2;
+}
+
+/* The "subscribers" label */
+.stats-label {
+  font-size: 0.875rem;        /* Smaller text for hierarchy */
+  font-weight: 500;
+  color: #6c757d;             /* Muted gray text */
+  text-transform: uppercase;  /* Optional: modern uppercase look */
+  letter-spacing: 0.5px;       /* Slight spacing for readability */
+  margin-top: 4px;            /* Gap between number and text */
 }
