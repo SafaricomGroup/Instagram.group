@@ -107,8 +107,8 @@ position: fixed;
 
 .hero-content {
 display:inline-block;
- position: fixed;
-  top: 0;
+ position: relative;
+  
  
   color: #ffffff; /* White text so it pops against the dark overlay */
   font-family: sans-serif;
