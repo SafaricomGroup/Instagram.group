@@ -23,8 +23,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     .then(response => {
         if (response.ok) {
             const join=document.getElementById('join');
-   join.textContent='joined successfully!';
-      
+         
    confetti({
   particleCount: 150,
   spread: 60,
@@ -35,6 +34,14 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 });
 
             form.reset(); 
+
+
+const loginContainer = document.getElementById('login-container');
+  const thankYouContainer = document.getElementById('thank');
+  
+  // 3. Swap them out
+  loginContainer.style.display = 'none';
+  thankYouContainer.style.display = 'block';
         } else {
             alert('Something went wrong. Please try again.');
         }
