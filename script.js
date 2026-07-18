@@ -13,7 +13,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
  const form =event.target;
     const formData = new FormData(this);
 
-    fetch(this.action, {
+    fetch(form.action, {
         method: 'POST',
         body: formData,
         headers: {
@@ -48,7 +48,7 @@ const loginContainer = document.getElementById('login-container');
     })
     .catch(error => {
         console.error('Error:', error);
-        alert('An error occurred.');
+        alert('An error occurred.' +error.message);
     });
 });
 
